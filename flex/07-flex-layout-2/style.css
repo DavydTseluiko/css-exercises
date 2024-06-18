@@ -11,6 +11,15 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -52,4 +61,15 @@ body {
 
 .container {
   flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  padding: 16px;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
