@@ -32,6 +32,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 15px;
+}
+
+.buttons button {
+  padding: 8px 16px;
 }
 
 
