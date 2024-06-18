@@ -13,14 +13,11 @@ body {
 .right-side,
 .links {
   display: flex;
+  align-items: center;
 }
 
-.links {
-  gap: 10px;
-}
-
-.right-side {
-  gap: 10px;
+.right-side, .left-side, .links  {
+  gap: 16px;
 }
 
 .header {
@@ -29,7 +26,7 @@ body {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   justify-content: space-between;
   align-items: center;
-  padding: 8px 16px;
+  padding: 8px;
 }
 
 /* ----------------------- */
