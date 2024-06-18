@@ -37,10 +37,19 @@ body {
 
 /* --------------------------- */
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   font-size: 24px;
   display: flex;
   align-items: center;
   padding: 8px 16px;
   font-weight: 700;
+}
+
+.container {
+  flex: 1;
 }
