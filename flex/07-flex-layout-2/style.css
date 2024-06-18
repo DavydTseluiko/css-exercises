@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 .header {
@@ -35,3 +36,11 @@ body {
 }
 
 /* --------------------------- */
+
+.header {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-weight: 700;
+}
