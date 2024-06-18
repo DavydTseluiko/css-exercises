@@ -66,10 +66,24 @@ body {
 
 .sidebar {
   padding: 16px;
+  flex-shrink: 0;
 }
 
 .sidebar ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.content {
+  flex: 1 0 0;
+  display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 0 1 30%;
+  padding: 16px;
 }
